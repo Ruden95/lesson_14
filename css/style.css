@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+body {
+   font-size: 16px;
+   font-family: 'Roboto', sans-serif;
+   
+}
+
+/*?_________________our-impact_________________ */
+
+.our-impact {
+   background-color: #2AB1AD;
+   margin: 100px 0px 0px 0px;
+   padding: 112px 0px 212px 0px;
+}
+.our-impact__container {
+   margin: 0 auto;
+   max-width: 1020px;
+   position: relative;
+}
+
+.our-impact__block-title {
+   max-width: 411px;
+   margin: 0px 0px 79px 0px;
+}
+.our-impact__subtitle {
+   font-weight: 700;
+   font-size: 12px;
+   color: #FFFFFF;
+   text-transform: uppercase;
+   letter-spacing: 2.5px;
+   margin: 0px 0px 31.77px 0px;
+}
+
+.our-impact__subtitle::before {
+   content: "";
+   width: 20px;
+   height: 20px;
+   background: url('../img/Overline-Mark.svg') 0px 0px / 24px no-repeat;
+   display: inline-block;
+   transform: translate(-4px, 4px) scale(1) rotate(0deg) skew(0deg,0deg);
+}
+
+
+.our-impact__main-title {
+   font-weight: 900;
+   font-size: 36px;
+   color: #FFFFFF;
+   line-height: 42px;
+}
+
+
+.our-impact__statistics {
+   display: flex;
+   flex-wrap: wrap;
+   column-gap: 82px;
+}
+/* .statistics {
+} */
+.statistics__item {
+   display: flex;
+   column-gap: 11px;
+}
+/* .statistics__logo {
+   
+} */
+
+.statistics__info {
+   transform: translate(0px, 5px) scale(1, 1) rotate(0deg) skew(0deg,0deg);
+}
+
+
+.statistics__amount {
+   color: #FFFFFF;
+   font-weight: 900;
+   font-size: 36px;
+   line-height: 42px;
+}
+.statistics__name {
+   color: #5D62B5;
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 24px;
+}
+
+.our-impact__photo {
+   position: absolute;
+   top: -194px;
+   left: 520px;
+}
+
+.our-impact__image {
+   position: absolute;
+}
+
+.our-impact__photo::before {
+   content: "";
+   width: 695px;
+   height: 308px;
+   background: url('../img/Blob.png') 0px 0px no-repeat;
+   display: inline-block;
+   position: absolute;
+   top: 82px;
+   left: -101px;
+}
+
+/*? _________________our-promise_________________ */
+
+.our-promise {
+   background-color: #f5f5f5;
+   padding: 87px 0px 121px 0px;
+}
+.our-promise__container {
+   margin: 0 auto;
+   max-width: 1020px;
+   position: relative;
+}
+.our-promise__block-title {
+   margin: 0px 0px 72px 0px;
+}
+.our-promise__subtitle {
+   color: #5D62B5;
+   font-weight: 700;
+   font-size: 12px;
+   line-height: 24px;
+   text-transform: uppercase;
+   margin: 0px 0px 33px 0px;
+}
+
+.our-promise__subtitle::before {
+   content: "";
+   width: 20px;
+   height: 20px;
+   background: url('../img/Overline-Mark-2.svg') 0px 0px / 24px no-repeat;
+   display: inline-block;
+   transform: translate(-4px, 4px) scale(1) rotate(0deg) skew(0deg,0deg);
+}
+
+.our-promise__main-title {
+   color: #000000;
+   font-weight: 900;
+   font-size: 36px;
+   line-height: 42px;
+}
+.our-promise__content {
+   display: flex;
+   /* flex-wrap: wrap; */
+   justify-content: space-between;
+   column-gap: 27px;
+
+}
+.our-promise__item {
+   display: flex;
+   column-gap: 23px;
+   
+}
+/* .our-promise__logo {
+} */
+.our-promise__info {
+   display: flex;
+   flex-direction: column;
+   row-gap: 23px;
+}
+/* .info {
+} */
+.info__name {
+   color: #F2726F;
+   font-weight: 900;
+   font-size: 19px;
+   line-height: 26px;
+}
+.info__text {
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 24px;
+   color: #4B4B4B;
+}
+
+
+
+
